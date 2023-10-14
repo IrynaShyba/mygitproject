@@ -1,0 +1,118 @@
+
+User@DESKTOP-A2AG47E MINGW64 ~/Documents/GitHub/mygitproject (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        git_logs.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+User@DESKTOP-A2AG47E MINGW64 ~/Documents/GitHub/mygitproject (main)
+$ git branch
+* main
+  read-me-udate
+  study/practical/1
+
+User@DESKTOP-A2AG47E MINGW64 ~/Documents/GitHub/mygitproject (main)
+$ git log
+commit 6d2595edfb38bba76d4e9b626617b8e5df6f01cd (HEAD -> main, origin/main, origin/HEAD)
+Merge: 1605358 8249808
+Author: IrynaShyba <irinashe91@gmail.com>
+Date:   Sat Oct 14 22:20:19 2023 +0300
+
+    Merge branch 'study/practical/1'
+
+    # Conflicts:
+    #       index.html
+
+    resolved conflict
+
+commit 1605358e92d778c9f6e78a273e550bab23048cca
+Author: IrynaShyba <irinashe91@gmail.com>
+Date:   Sat Oct 14 22:14:29 2023 +0300
+
+    Add h3 tag to the page
+
+commit 82498083061fcc6fb1299ac6a60cf4c06c7e057f (origin/study/practical/1, study/practical/1)
+Author: IrynaShyba <irinashe91@gmail.com>
+Date:   Sat Oct 14 22:10:58 2023 +0300
+
+    Add styling for new teg in index.html
+
+commit 5205eeeb55eac23ce755a9643375c9637fff61f0
+Author: IrynaShyba <irinashe91@gmail.com>
+Date:   Sat Oct 14 22:08:35 2023 +0300
+
+    Add text h3 to the index.html file
+
+commit 94ead2aa7f62c2ac01dbba7c86cb0e192279b1f1
+Merge: 9808814 eee6768
+Author: IrynaShyba <irinashe91@gmail.com>
+Date:   Sat Oct 14 22:05:58 2023 +0300
+
+    Merge branch 'main' into study/practical/1
+
+commit eee6768a2bd12eb0142fedb51158e0a267a0bcc3
+Author: IrynaShyba <irinashe91@gmail.com>
+Date:   Thu Oct 12 12:34:48 2023 +0300
+
+    add index html
+
+commit 0cd6223069fe259d1b39083195ca03c905128e84
+Merge: 40be419 9808814
+Author: IrynaShevchuk <144629161+IrynaShyba@users.noreply.github.com>
+Date:   Sun Sep 17 16:38:37 2023 +0300
+
+    Merge pull request #1 from IrynaShyba/read-me-udate
+
+    read me update
+
+commit 9808814e8267a4f83f861bb0d8ac4ca30289d060 (origin/read-me-udate, read-me-udate)
+Author: IrynaShyba <irinashe91@gmail.com>
+Date:   Sun Sep 17 16:35:19 2023 +0300
+
+    read me update
+
+commit 40be41925b5b76320fb99b87ba30411a25b36d13
+Author: IrynaShyba <irinashe91@gmail.com>
+Date:   Sun Sep 17 16:16:55 2023 +0300
+
+    Update README.md
+
+    add title to read me
+
+commit e2c5185fad38576e84f01ff05e8832e2080bbed2
+Author: IrynaShevchuk <144629161+IrynaShyba@users.noreply.github.com>
+Date:   Sat Sep 16 14:44:42 2023 +0300
+
+    Initial commit
+(END)
+
+
+User@DESKTOP-A2AG47E MINGW64 ~/Documents/GitHub/mygitproject (main)
+$ git log -m
+commit 6d2595edfb38bba76d4e9b626617b8e5df6f01cd (HEAD -> main, origin/main, origin/HEAD)
+Merge: 1605358 8249808
+Author: IrynaShyba <irinashe91@gmail.com>
+Date:   Sat Oct 14 22:20:19 2023 +0300
+
+    Merge branch 'study/practical/1'
+
+    # Conflicts:
+    #       index.html
+
+    resolved conflict
+
+commit 1605358e92d778c9f6e78a273e550bab23048cca
+Author: IrynaShyba <irinashe91@gmail.com>
+Date:   Sat Oct 14 22:14:29 2023 +0300
+
+    Add h3 tag to the page
+
+commit 82498083061fcc6fb1299ac6a60cf4c06c7e057f (origin/study/practical/1, study/practical/1)
+Author: IrynaShyba <irinashe91@gmail.com>
+Date:   Sat Oct 14 22:10:58 2023 +0300
+
